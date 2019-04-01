@@ -682,5 +682,11 @@
         "body": "{% verbatim %}\n\t$0\n{% endverbatim %}",
         "description": "verbatim",
         "scope": "text.html.twig"
+    },
+        "path": {
+        "prefix": "path",
+        "body": "\"{{ path('') }}\"$0",
+        "description": "path",
+        "scope": "text.html.twig"
     }
 }
